@@ -1,18 +1,3 @@
-/* document.addEventListener('DOMContentLoaded', function() {
-    const menuBar = document.getElementById('menu-bar');
-    const navItems = document.getElementById('nav-items');
-    
-    menuBar.addEventListener('click', function() {
-        navItems.classList.toggle('active');
-    });
-    
-    // Close menu when clicking on links
-    document.querySelectorAll('.nav-link').forEach(link => {
-        link.addEventListener('click', function() {
-            navItems.classList.remove('active');
-        });
-    });
-}); */
 
 document.addEventListener('DOMContentLoaded', function () {
     const menuBar = document.getElementById('menu-bar');
